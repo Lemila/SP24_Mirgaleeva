@@ -1,3 +1,58 @@
+.page-header{
+	width: 100%;
+	background-color: yellow;
+}
 .logo{
+    float: left;
 
+}
+.main-nav{
+    float: right;
+    display: inline-block;
+		
+}
+.promo{
+	text-align: center;
+	background-image: url(https://placehold.it/350x150);
+	
+}
+.consult{
+    display: inline-block;
+    background-color: black;
+   
+}
+.features{
+	display: inline-block;
+	background-color: white;
+}
+.technic{
+	background-color: grey;
+}
+.technik-menu{
+	float: left;
+
+}
+.deals{
+	float: right;
+
+}
+.about{
+	background-color: black;
+}
+.about-number{
+	float: left;
+}
+.about-rewievs{
+	float: right;
+	
+}
+.page-footer{
+	background-color: black;
+}
+.logo{
+	float: left;
+}
+.main-nav{
+	float: right;
+	
 }
