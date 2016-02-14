@@ -1,58 +1,138 @@
 .page-header{
 	width: 100%;
-	background-color: yellow;
+	min-height: 100px;
+	background-color: #FFCD34;
+    overflow: hidden;
 }
 .logo{
     float: left;
-
+    font-size: 15px;
 }
 .main-nav{
     float: right;
     display: inline-block;
-		
+	text-decoration: none;
+	font-size: 15px;
+}
+.btn-order{
+	display: inline-block;
+	font-size: 15px;
+}
+main{
+	width: 100%;
 }
 .promo{
 	text-align: center;
 	background-image: url(https://placehold.it/350x150);
-	
+	min-height: 100px;
+	vertical-align: middle;
+	color: white;
+}
+.promo-slogan{
+	font-size: 25px;
+	font-weight: bold;
+}
+.promo-title{
+	font-size: 15px;
+
+}
+.promo-btn{
+    border: 3px solid yellow;
+    color: white;
+    font-weight: bold;
+    
 }
 .consult{
     display: inline-block;
     background-color: black;
-   
+    min-height: 100px;
+}
+.consult-title{
+	color: yellow;
+	font-size: 18px;
+}
+.consult-form{
+	border: 2px solid yellow;
+	font-size: 15px;
+	color: white;
+}
+.btn consult-btn{
+	background-color: yellow;
+	color: black;
 }
 .features{
 	display: inline-block;
 	background-color: white;
+    min-height: 100px;
+    color: black;
+    font-size: 10px;
 }
 .technic{
 	background-color: grey;
+	min-height: 100px;
 }
 .technik-menu{
 	float: left;
-
+    
+}
+.subtitle{
+	font-size: 20px;
+	color: black;
 }
 .deals{
 	float: right;
-
+	background-color: grey;
+.deals-table{
+	min-height: 100px;
+    color: black;
+    font-size: 10px;
 }
+
 .about{
+	overflow: hidden;
 	background-color: black;
+	min-height: 100px;
+}
+.subtitle-about{
+	font-size: 20px;
+	font-weight: bold;
+    text-align: center;
+    
 }
 .about-number{
 	float: left;
+	display: block;
+	
+}
+.about-digit{
+
 }
 .about-rewievs{
 	float: right;
-	
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	font-style: italic;
 }
 .page-footer{
+	overflow: hidden;
 	background-color: black;
+	min-height: 100px;
 }
 .logo{
 	float: left;
+	font-size: 18px;
+	color: yellow;
+	font-weight: bold;
+	
+}
+.logo-img{
+color: white;
+
 }
 .main-nav{
 	float: right;
+	display: inline-block;
+	vertical-align: middle;
 	
 }
