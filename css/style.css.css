@@ -1,85 +1,51 @@
-.body{
-	color: #f44 !important;
-}
-
 .page-header{
-	
+	width: 100%;
 	min-height: 100px;
 	background-color: #FFCD34;
     overflow: hidden;
-    color: #f44 !important;
 }
 .logo{
+    float: left;
     font-size: 15px;
-    text-decoration: none;
-    
 }
-.menu{
-	padding: 5px;
-	margin: 23px;
+.main-nav{
+    float: right;
+    display: inline-block;
+	text-decoration: none;
 	font-size: 15px;
-	color: #f44 !important;
-}
-a{
-	text-decoration: none !important;
 }
 .btn-order{
-	width: 101px;
-    height: 28px;
-    background-color: #fee083;
-    padding: 15px;
-
-}
-.left{float: left;}
-.right{float: right;}
-.text-center{text-align: center;}
-.text-left{text-align: left;}
-.text-right{text-align: right;}
-.inline li{display: inline-block;}
-.btn-order{
+	display: inline-block;
 	font-size: 15px;
 }
 main{
 	width: 100%;
 }
 .promo{
-	overflow: hidden;
-	height: 256px;
+	text-align: center;
 	background-image: url(https://placehold.it/350x150);
+	min-height: 100px;
 	vertical-align: middle;
 	color: white;
-	background-color: #202e3b;
 }
 .promo-slogan{
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
-	flex-shrink: 20px;
-	font-style: normal;
 }
 .promo-title{
-	font-size: 13px;
+	font-size: 15px;
 
 }
 .promo-btn{
     border: 3px solid yellow;
     color: white;
     font-weight: bold;
-    font-size: 13px;
-    padding: 10px;
-}
-
-	
+    
 }
 .consult{
-	overflow: hidden;
-	
     display: inline-block;
-    background-color: #000;
-    padding: 23px;
-    margin: 13px;
-    width: 100px;
-    height: 100px;
-
+    background-color: black;
+    min-height: 100px;
 }
 .consult-title{
 	color: yellow;
@@ -90,27 +56,23 @@ main{
 	font-size: 15px;
 	color: white;
 }
-.btnconsult-btn{
+.btn consult-btn{
 	background-color: yellow;
 	color: black;
 }
 .features{
-	overflow: hidden;
+	display: inline-block;
 	background-color: white;
     min-height: 100px;
     color: black;
     font-size: 10px;
 }
-.features-item{
-	display: inline-block;
-}
 .technic{
-	overflow: hidden;
 	background-color: grey;
 	min-height: 100px;
 }
 .technik-menu{
-	
+	float: left;
     
 }
 .subtitle{
@@ -118,9 +80,8 @@ main{
 	color: black;
 }
 .deals{
-	overflow: hidden;
+	float: right;
 	background-color: grey;
-}
 .deals-table{
 	min-height: 100px;
     color: black;
@@ -128,7 +89,7 @@ main{
 }
 
 .about{
-	
+	overflow: hidden;
 	background-color: black;
 	min-height: 100px;
 }
@@ -139,7 +100,7 @@ main{
     
 }
 .about-number{
-	
+	float: left;
 	display: block;
 	
 }
@@ -147,17 +108,11 @@ main{
 
 }
 .about-rewievs{
-	
+	float: right;
 	text-align: center;
 	color: white;
 	font-size: 10px;
 	font-style: italic;
-}
-.map{
-	height: 500px;
-	width: 100%;
-	frameborder: 0px;
-	border: 0px;
 }
 .page-footer{
 	overflow: hidden;
@@ -165,7 +120,7 @@ main{
 	min-height: 100px;
 }
 .logo{
-
+	float: left;
 	font-size: 18px;
 	color: yellow;
 	font-weight: bold;
@@ -176,6 +131,8 @@ color: white;
 
 }
 .main-nav{
+	float: right;
+	display: inline-block;
 	vertical-align: middle;
 	
 }
