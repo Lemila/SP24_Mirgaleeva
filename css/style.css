@@ -1,62 +1,57 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+
 .body{
 	color: #f44 !important;
+
 }
 
 .page-header{
-	
-	min-height: 100px;
+	overflow: hidden;
 	background-color: #FFCD34;
-    overflow: hidden;
-    color: #f44 !important;
+    height: 43px;
+    
 }
 .logo{
     font-size: 15px;
     text-decoration: none;
-    
+    float: left;
 }
-.menu{
-	padding: 5px;
-	margin: 23px;
-	font-size: 15px;
-	color: #f44 !important;
+
+.main-nav{
+	float: left;
+	
 }
 a{
-	text-decoration: none !important;
+	
 }
 .btn-order{
 	width: 101px;
     height: 28px;
     background-color: #fee083;
     padding: 15px;
-
-}
-.left{float: left;}
-.right{float: right;}
-.text-center{text-align: center;}
-.text-left{text-align: left;}
-.text-right{text-align: right;}
-.inline li{display: inline-block;}
-.btn-order{
 	font-size: 15px;
 }
 main{
 	width: 100%;
 }
 .promo{
-	overflow: hidden;
 	height: 256px;
-	background-image: url(https://placehold.it/350x150);
+	background-image: url();
 	vertical-align: middle;
 	color: white;
-	background-color: #202e3b;
+	text-align: center;
+	background-color: rgba(53, 75, 96, 0.8);
 }
 .promo-slogan{
+	margin: 0 auto;
 	font-size: 30px;
 	font-weight: bold;
-	flex-shrink: 20px;
+	padding-top: 50px;
 	font-style: normal;
 }
 .promo-title{
+
+     padding: 23px 10px;
 	font-size: 13px;
 
 }
@@ -71,66 +66,85 @@ main{
 	
 }
 .consult{
-	overflow: hidden;
 	
     display: inline-block;
-    background-color: #000;
-    padding: 23px;
-    margin: 13px;
-    width: 100px;
-    height: 100px;
+    background-color: #202e3b;
+    height: 200px;
 
 }
 .consult-title{
 	color: yellow;
-	font-size: 18px;
+	font-size: 15px;
 }
 .consult-form{
-	border: 2px solid yellow;
-	font-size: 15px;
-	color: white;
+	
+	font-size: 12px;
+	
+
 }
-.btnconsult-btn{
-	background-color: yellow;
-	color: black;
+input{
+	height: 18px;
+	width: 123px;
+	margin: 13px;
+	padding: 5px;
 }
+.consult-btn{
+	
+	
+	color: #202e3b;
+	background-color: #fecd33;
+	height: 32px;
+	width: 145px;
+	
+}
+	
 .features{
-	overflow: hidden;
+	
 	background-color: white;
-    min-height: 100px;
+    height: 77px;
     color: black;
-    font-size: 10px;
+    
 }
 .features-item{
 	display: inline-block;
+	height: 29px;
+	width: 109px;
+	font-size: 10px;
+	padding: 30px;
 }
 .technic{
-	overflow: hidden;
-	background-color: grey;
-	min-height: 100px;
+	
+	margin: 23px;
+	height: 225px;
+	background-color: #f3f3f3;
 }
 .technik-menu{
+	display: block;
 	
     
 }
 .subtitle{
 	font-size: 20px;
 	color: black;
+	text-align: center;
+
 }
 .deals{
-	overflow: hidden;
-	background-color: grey;
+	
+	
+	background-color: ;
 }
 .deals-table{
-	min-height: 100px;
     color: black;
     font-size: 10px;
+
 }
 
 .about{
+	overflow: hidden;
 	
 	background-color: black;
-	min-height: 100px;
+
 }
 .subtitle-about{
 	font-size: 20px;
@@ -139,6 +153,7 @@ main{
     
 }
 .about-number{
+	float: left;
 	
 	display: block;
 	
@@ -147,6 +162,7 @@ main{
 
 }
 .about-rewievs{
+	float: right;
 	
 	text-align: center;
 	color: white;
@@ -160,11 +176,15 @@ main{
 	border: 0px;
 }
 .page-footer{
-	overflow: hidden;
+	height: 44px;
 	background-color: black;
-	min-height: 100px;
+    font-size: 10px;
+    padding: 10px;
+    margin: 5px;
+    
 }
 .logo{
+    float: left;
 
 	font-size: 18px;
 	color: yellow;
@@ -176,6 +196,6 @@ color: white;
 
 }
 .main-nav{
-	vertical-align: middle;
+	float: right;
 	
 }
