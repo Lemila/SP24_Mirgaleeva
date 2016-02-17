@@ -1,201 +1,193 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 
-.body{
-	color: #f44 !important;
+.page-header{ 
+height: 91px;
+background-color: #ffcd34;
+color: #000;
+text-decoration: none;
+} 
+
+.logo-img { 
+height: 39px;
+width: 50px;
+
+} 
+
+.logo-brand{
+font-size: 18px;
+color: #000;
+text-decoration: none;
+}
+
+li.main-nav{
+display: inline-block;
+text-decoration: none;
+font-size: 13px;
 
 }
 
-.page-header{
-	overflow: hidden;
-	background-color: #FFCD34;
-    height: 43px;
-    
-}
-.logo{
-    font-size: 15px;
-    text-decoration: none;
-    float: left;
-}
+.promo { 
+height: 465px;
+color: #fff;
+background-color: #323a45;
+text-align: center;
+} 
 
-.main-nav{
-	float: left;
-	
-}
-a{
-	
-}
-.btn-order{
-	width: 101px;
-    height: 28px;
-    background-color: #fee083;
-    padding: 15px;
-	font-size: 15px;
-}
-main{
-	width: 100%;
-}
-.promo{
-	height: 256px;
-	background-image: url();
-	vertical-align: middle;
-	color: white;
-	text-align: center;
-	background-color: rgba(53, 75, 96, 0.8);
-}
+
 .promo-slogan{
-	margin: 0 auto;
-	font-size: 30px;
-	font-weight: bold;
-	padding-top: 50px;
-	font-style: normal;
+font-size: 37px;
+
+
 }
+
 .promo-title{
-
-     padding: 23px 10px;
-	font-size: 13px;
+font-size: 11px;
 
 }
+
 .promo-btn{
-    border: 3px solid yellow;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    padding: 10px;
+height: 40px;
+width: 219px;
+font-size: 11px;
+border: 2px solid #ffcd34;
 }
 
-	
-}
-.consult{
-	
-    display: inline-block;
-    background-color: #202e3b;
-    height: 200px;
+.consult { 
+background-color: #202e3b;
+height: 183px;
+width: 360px;
+text-align: center;
+
+} 
+
+
 
 }
-.consult-title{
-	color: yellow;
-	font-size: 15px;
-}
-.consult-form{
-	
-	font-size: 12px;
-	
 
-}
 input{
-	height: 18px;
-	width: 123px;
-	margin: 13px;
-	padding: 5px;
-}
-.consult-btn{
-	
-	
-	color: #202e3b;
-	background-color: #fecd33;
-	height: 32px;
-	width: 145px;
-	
-}
-	
-.features{
-	
-	background-color: white;
-    height: 77px;
-    color: black;
-    
-}
-.features-item{
-	display: inline-block;
-	height: 29px;
-	width: 109px;
-	font-size: 10px;
-	padding: 30px;
-}
-.technic{
-	
-	margin: 23px;
-	height: 225px;
-	background-color: #f3f3f3;
-}
-.technik-menu{
-	display: block;
-	
-    
-}
-.subtitle{
-	font-size: 20px;
-	color: black;
-	text-align: center;
-
-}
-.deals{
-	
-	
-	background-color: ;
-}
-.deals-table{
-    color: black;
-    font-size: 10px;
-
+color: #fff;
 }
 
-.about{
-	overflow: hidden;
-	
-	background-color: black;
+.features { 
 
-}
-.subtitle-about{
-	font-size: 20px;
-	font-weight: bold;
-    text-align: center;
-    
-}
-.about-number{
-	float: left;
-	
-	display: block;
-	
-}
-.about-digit{
 
-}
-.about-rewievs{
-	float: right;
-	
-	text-align: center;
-	color: white;
-	font-size: 10px;
-	font-style: italic;
-}
-.map{
-	height: 500px;
-	width: 100%;
-	frameborder: 0px;
-	border: 0px;
-}
-.page-footer{
-	height: 44px;
-	background-color: black;
-    font-size: 10px;
-    padding: 10px;
-    margin: 5px;
-    
-}
-.logo{
-    float: left;
+} 
 
-	font-size: 18px;
-	color: yellow;
-	font-weight: bold;
-	
-}
-.logo-img{
-color: white;
+.features-item { 
 
-}
-.main-nav{
-	float: right;
-	
-}
+
+} 
+
+. { 
+
+
+} 
+
+. { 
+
+
+} 
+
+.features-item-tool { 
+
+
+} 
+
+.features-item { 
+
+
+} 
+
+. { 
+
+
+} 
+
+. { 
+
+
+} 
+
+.features-item-work { 
+
+
+} 
+
+.features-item { 
+
+
+} 
+
+. { 
+
+
+} 
+
+. { 
+
+
+} 
+
+.features-item-fencing { 
+
+
+} 
+
+.features-item { 
+
+
+} 
+
+. { 
+
+
+} 
+
+. { 
+
+
+} 
+
+.features-item-workman { 
+
+
+} 
+
+.deals { 
+
+
+} 
+
+.deals-menu { 
+
+
+} 
+
+.deals-table { 
+
+
+} 
+
+.about { 
+
+
+} 
+
+.about-facts { 
+
+
+} 
+
+.about-reviews { 
+
+
+} 
+
+.about-reviews-item { 
+
+
+} 
+
+.map { 
+
+
+} 

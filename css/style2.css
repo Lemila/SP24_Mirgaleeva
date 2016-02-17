@@ -7,30 +7,63 @@ body {
 
 } 
 
+.page-header{
+	overflow: hidden;
+	background-color: #FFCD34;
+    height: 43px;
+    
+}
+.logo{
+    font-size: 15px;
+    text-decoration: none;
+    float: right;
+}
 
-/*******************************************************************
-LAYOUT
-*******************************************************************/
-
-div { 
-
-
-} 
-
-.container { 
-
-
-} 
+.main-nav{
+	float: left;
+	
+}
+a{
+	
+}
+.btn-order{
+	width: 101px;
+    height: 28px;
+    background-color: #fee083;
+    padding: 15px;
+	font-size: 15px;
+}
 
 .portfolio { 
 
-
 } 
+.portfolio-subtitle{
+    float: left;
 
-.portfolio-item { 
+}
+.portfolio-nav{
+	overflow: hidden;
+	
+height: 61px;
+width: 100%;
+background-color: #111d29;
+		
+}
 
+.portfolio-item {
+	height: 292px;
+	background-color: #5b3a0f;
+}
 
+.portfolio-cart{ 
+width: 184px;
+height: 142px;
+background-color: #fff;
 } 
+.portfolio-cart__title{
+font-size: 20px;
+
+}
 
 .portfolio-item-1 { 
 
@@ -62,26 +95,21 @@ div {
 
 } 
 
-.вЂќfeaturesвЂќ { 
 
-
-} 
-
-.features-item { 
-
-
-} 
-
-. { 
-
-
-} 
-
-. { 
-
-
-} 
-
+.features{
+	
+	background-color: white;
+    height: 77px;
+    color: black;
+    
+}
+.features-item{
+	display: inline-block;
+	height: 29px;
+	width: 109px;
+	font-size: 10px;
+	padding: 30px;
+}
 .features-item-tool { 
 
 
@@ -146,3 +174,28 @@ div {
 
 
 } 
+.page-footer{
+	overflow: hidden;
+	height: 44px;
+	background-color: black;
+    font-size: 10px;
+    padding: 10px;
+    margin: 5px;
+    
+}
+.logo{
+    float: left;
+
+	font-size: 18px;
+	color: yellow;
+	font-weight: bold;
+	
+}
+.logo-img{
+color: white;
+
+}
+.main-nav{
+	float: right;
+	
+}
