@@ -4,43 +4,79 @@ width: 100%;
 .page-header{ 
 height: 91px;
 background-color: #ffcd34;
-color: #000;
-text-decoration: none;
-
+overflow: hidden;
 } 
 
 .logo-img { 
 height: 39px;
 width: 50px;
+margin-left: 45px;
 
 } 
 
-.logo-brand{
-font-size: 18px;
+.page-header span{
 color: #000;
-text-decoration: none;
+font-size: 18px;
+padding-left: 15px;
+
 }
 
-li.main-nav.page-header{
+.page-header a{
+text-decoration: none;
+float: left;
+}
+
+.page-header li{
 display: inline-block;
 text-decoration: none;
 font-size: 13px;
-
+padding: 15px;
+}
+.page-header li a{
+text-decoration: none;
+color: #000;
 }
 
+.page-header li:first-child,.page-header li:last-child{
+ font-weight: bold;
+ 
+}
+.page-header li:nth-child(2), .page-header li:nth-child(3), .page-header li:nth-child(4){
+opacity: 0.7;
+}
+.page-header li:last-child{
+background-color: #ffe083;
+border: 2px solid #ffe083;
+padding: 10px;
+
+}
+.promo:before{
+content:"";
+position: absolute;
+left: 0;
+top: -15px;
+width: 100%;
+height: 20px;
+background-image: 
+linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 15px;
+background-repeat: repeat-x;}
+
 .promo { 
-height: 465px;
+min-height: 465px;
 color: #fff;
 background-color: #323a45;
 text-align: center;
-
-
+margin: 0 auto;
+padding: 55px;
+top: 5px;
+position: relative;
+margin-bottom: -70px;
 } 
 
 .promo-slogan{
-	top: 50px;
+
 font-size: 37px;
-margin-top: 50px;
 
 }
 
@@ -48,7 +84,7 @@ margin-top: 50px;
 font-size: 18px;
 font-weight: normal;
 padding: 20px;
-margin: 20px;
+
 }
 
 .promo-btn{
@@ -62,6 +98,22 @@ color: #ffffff;
 text-decoration: none;
 
 }
+.container{
+text-align: center;
+margin: 0 auto;
+
+}
+.consult:before{
+content:"";
+position: absolute;
+left: 0;
+top: -15px;
+width: 100%;
+height: 20px;
+background-image: 
+linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 15px;
+background-repeat: repeat-x;}
 
 .consult { 
 background-color: #202e3b;
@@ -70,10 +122,11 @@ width: 360px;
 text-align: center;
 display: inline-block;
 width: 100%;
-
+position: relative;
+margin-top: -25px;
 } 
 
-.consult-fieldset{
+form{
 margin-top: 40px;
 }
 
@@ -81,10 +134,10 @@ margin-top: 40px;
 color: #ffcd34;
 font-size: 20px;
 text-align: left ;
-margin-left: 150px;
+margin-left: 165px;
 }
 
-input{
+.text-consult{
 height: 43px;
 width: 230px;
 background-color: #202e3b;
@@ -103,28 +156,34 @@ color: #202e3b;
 font-size: 16px;
 height: 50px;
 width: 230px;
-
+border-color: #ffcd34;
 }
 .features { 
 background-color: #fff;
 height: 133px;
-
+margin: 10px;
 
 } 
 
 .features-item { 
 height: 49px;
-width: 214px;
-margin: 25px;
+width: 220px;
+
 display: inline-block;
 text-align: center;
- list-style: none;
- 
- 
+list-style: none;
+vertical-align: middle;
+}
+
+.features-item-img{
+  margin: 10px;
+  list-style: none;
+  font-size: 22px;
+  display: block;
 }
 
 .features-item-img:before { 
-  margin-right: 10px;
+  margin-right: 5px;
   display: inline-block;
   content: "";
   width: 45px;
@@ -132,6 +191,7 @@ text-align: center;
   background-size: 100%;
   vertical-align: middle;
   background-repeat: no-repeat;
+  position: relative;
 
 } 
 
@@ -159,7 +219,7 @@ background-image: url();
 
 .deals { 
 background-color: #f3f3f3;
-height: 392px;
+height: 400px;
 overflow: hidden;
 
 } 
@@ -171,91 +231,187 @@ margin-left: 206px;
 margin-right: 84px;
 line-height: 40px;
 } 
+.deals-menu li{
+	text-align: left;
+	
+	
+}
+
+.deals-menu li a{
+color: #202e3b;
+
+	
+}
 h2{
 	font-size: 25px;
-	margin-left: 50px;
+	
+
 }
 .deals-table { 
 float: right;
-margin-right: 206px;
 margin-left: 84px;
+margin-right: 206px;
+
+
 } 
+td {
+padding: 5px 20px;
+
+}
 
 tr{
-    height: 50px;
-	width: 900px;
-	padding: 20px 20px;
+	text-align: left;
 }
 th{
-	margin: 10px;
+padding: 5px 17px;
+ta
 }
+
 tr:first-child{
 	background-color: #dfdfdf;
-	height: 50px;
-	width: 800px;
-	padding: 20px 20px;
+	
+	
+	
 }
 tr:nth-child(3){
 	background-color: #FFF;
-	height: 50px;
-	width: 800px;
-	padding: 20px 20px;
+	
+	
+	
 }
 
 tr:nth-child(5){
 	background-color: #FFF;
-	height: 50px;
-	width: 800px;
-	padding: 20px 20px;
+	
+	
+	
 }
+.about:before{
+content:"";
+position: absolute;
+left: 0;
+top: -15px;
+width: 100%;
+height: 20px;
+background-image: 
+linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 35px 15px;
+background-repeat: repeat-x;}
 
 .about { 
-background-color: #111d29;
-
-} 
-
-.about-facts { 
-
+background-color: #202e3b;
+position: relative;
 
 
 } 
-
-.about-reviews { 
-
-} 
-
-.about-reviews-item { 
-
-
-} 
-
-.map { 
-
-
-} 
-.page-footer{ 
-height: 91px;
-background-color: #000;
-color: #ffcd34;
-text-decoration: none;
-
-} 
-
-.logo-img { 
-height: 39px;
-width: 50px;
-
-} 
-
-.logo-brand{
-font-size: 18px;
-color: #ffcd34;
-text-decoration: none;
+.about .container{
+overflow: hidden;
 }
 
-li.main-nav{
+.about-facts{ 
+width: 30%;
+float: left;
+text-align: left;
+margin-left: 200px;
+} 
+
+.about-facts h2{
+margin-left: 50px;
+color: #fff;
+}
+.about-facts span{
+font-weight: normal;
+
+}
+
+li .about-facts-number{
+font-size: 39px;
+color: #f1b132;
+font-weight: bold;
+	
+}
+
+li .about-facts-text{
+font-size: 17px;
+color: #9e9e9e;
+margin-left: 20px;
+font-weight: bold;
+}
+.about-reviews { 
+width: 40%;
+float: right;
+text-align: left;
+} 
+
+.about-reviews h2{
+color: #fff;
+}
+
+.about-reviews-item { 
+display: inline-block;
+
+
+} 
+
+.about-reviews-item img{
+margin-right: 300px;
+}
+
+.about-reviews-item blockquote{
+font-style: italic;
+color: #fff;
+line-height: 27px;
+}
+
+.about-reviews-item cite{
+font-weight: bold;
+color: #f1b132;
+font-size: 17px;
+font-style: normal;
+
+
+}
+
+.map { 
+position: relative;
+
+
+} 
+.page-footer { 
+height: 91px;
+background-color: #202e3b;
+overflow: hidden;
+} 
+
+.page-footer a .logo-img { 
+height: 39px;
+width: 50px;
+margin-left: 45px;
+color: #fff;
+} 
+
+.page-footer  span{
+color: #ffcd34;
+font-size: 18px;
+padding-left: 15px;
+
+}
+
+.page-footer  a{
+text-decoration: none;
+float: left;
+}
+
+.page-footer  li{
 display: inline-block;
 text-decoration: none;
 font-size: 13px;
+padding: 15px;
+}
+.page-footer li a{
+color: #fff;
+}
 
+.page-footer li a:last-child{
+color: #;
 }
