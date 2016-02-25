@@ -40,8 +40,6 @@ text-decoration: none;
 font-size: 13px;
 padding: 25px;
 vertical-align: middle;
-
-
 }
 .page-header li a{
 text-decoration: none;
@@ -167,13 +165,9 @@ text-align: center;
 .button-consult{
 background-color: #ffcd34;
 color: #202e3b; 
-font-size: 11px;
-box-sizing: border-box;
-border-color: #ffcd34;
-padding: 7px 0 13px;
-vertical-align: middle;
-font-weight: bold;
-
+padding: 8px 17px;
+border: 3px solid #ffcd34;
+font-size: 12px;
 }
 .features { 
 background-color: #fff;
@@ -253,8 +247,6 @@ line-height: 40px;
 
 .deals-menu li a{
 color: #202e3b;
-
-	
 }
 .deals-menu h2{
 	font-size: 25px;
@@ -430,16 +422,10 @@ background-color: #202e3b;
 
 } 
 
-.page-header{ 
-background-color: #ffcd34;
-} 
-
 .logo{
 padding: 30px;
 }
-.logo img{
 
-}
 .main-nav ul { 
 display: inline-block;
 vertical-align: middle;
