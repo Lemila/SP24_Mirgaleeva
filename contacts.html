@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style4.css">
 </head>
 <body>
   
@@ -19,14 +19,14 @@
   <nav class="main-nav">
 	<ul>
 		<li><a href="#">О компании</a></li>
-<li><a href="#">Каталог</a></li>
-<li><a href="#">Портфолио</a></li>
-<li><a href="#">Контакты</a></li>
+<li><a href="index.html">Каталог</a></li>
+<li><a href="portfolio.html">Портфолио</a></li>
+<li><a href="contacts.html">Контакты</a></li>
 <li><a href="#" class="btn-order">Заказать звонок</a></li>
 </ul>
-  </nav>
+</nav>
 
-  </div>
+</div>
 </header>
 
 <main>
@@ -34,9 +34,7 @@
   <div class="container">
    <h1 class="consult-title">Контакты</h1>
     <p>Свяжитесь с нами и все будет хорошо</p>
-    <form action="#" class="consult-form">
-          <input type="submit" value="Мне нужна консультация">
-    </form>
+    <a href="#" class="consult-button">Мне нужна консультация</a>
   </div>
   </section>
   
@@ -46,44 +44,73 @@
      
       <div class="map"></div>
       
-      <form class="contacts-feedback">
-        <textarea>+7(812)212 85 06<textarea>
-        <textarea>rent@spezteh.ru</textarea>
-        <textarea>Заказать консультацию по подбору подходящей техники</textarea>
-        <input type="text" placeholder="Имя">
-        <input type="text" placeholder="Телефон для связи">
-        <input type="text" placeholder="Описание задачи (можно примерное)">
-        <input type="submit" value="Получить консультацию">
+    <div class="contacts-feedback-form">
+      <div class="contacts-feedback-form-phone">
+        <img src="phone.png" alt="phone"/><p>+7(812)212 85 06</p>
+      </div>
+      <div class="contacts-feedback-form-mail>
+        <img src="mail.png" alt="mail"/><a href="">rent@spezteh.ru</a>
+      </div>
+      <h2>Заказать консультацию по подбору<br/> подходящей техники</h2>
+    
+      <form action="#" class="contacts-feedback-form-fill">
+        <input type="text" placeholder="Имя"/>
+        <input type="text" placeholder="Телефон для связи"/>
+        <textarea name="#" cols="30" rows="4" placeholder="Описание задачи (можно примерное)"></textarea>
+        <input class="contacts-feedback-form-fill-button" type="button" value="Получить консультацию"/>
       </form>
-
- <section class="about-rewievs">
-      <h2 class="subtitle">Отзывы</h2>
-    <div class="about-reviews-item">
-  <img src="img/client1.jpg" alt="Оля Вольт">
-         <blockquote>
-    Спецтех24 - это надежные..
-<cite>Оля Молния</cite>
-</blockquote>
     </div>
+  </div>
+</div>
+</div>
 
-    <div class="about-reviews-item">
-  <img src="img/client2.jpg" alt="Оля Молния">
-         <blockquote>
-    Спецтех24 - это надежные..
-<cite>Оля Молния</cite>
-</blockquote>
-    </div>
-    </section>                            
-  </div>
-  </div>
-                        
+<div class="about-rewievs">
+<div class="container">
+ <h2 class="subtitle">Отзывы</h2>
+ <div class="about-reviews-item">
+  <img src="img/client1.jpg" alt="Оля Вольт"/>
+  <blockquote>
+Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
+работу быстро и еще у них отличное  чувство юмора! Благодарим и рекомендуем.<br/>
+   <cite class="name">Оля Молния</cite>
+  </blockquote>
+ </div>
+
+ <div class="about-reviews-item">
+  <img src="img/client1.jpg" alt="Оля Вольт"/>
+  <blockquote>
+Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
+работу быстро и еще у них отличное  чувство юмора! Благодарим и рекомендуем.<br/>
+   <cite class="name">Оля Молния</cite>
+  </blockquote>
+ </div>
+
+<div class="about-reviews-item">
+  <img src="img/client1.jpg" alt="Оля Вольт"/>
+  <blockquote>
+Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
+работу быстро и еще у них отличное  чувство юмора! Благодарим и рекомендуем.<br/>
+   <cite class="name">Оля Молния</cite>
+  </blockquote>
+ </div>
+
+<div class="about-reviews-item">
+  <img src="img/client1.jpg" alt="Оля Вольт"/>
+  <blockquote>
+Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
+работу быстро и еще у них отличное  чувство юмора! Благодарим и рекомендуем.<br/>
+   <cite class="name">Оля Молния</cite>
+  </blockquote>
+ </div>
+</div>  
+</div>                     
 </main>
 
 <footer class="page-footer"> 
 <div class="container">
   <a href="#" class="logo"> 
   <img  class="logo-img" src="img/logo.png" alt="Машинка">
-  <b>Спецтех</b>24
+  <span><b>Спецтех</b>24</span>
   </a>
   <nav class="main-nav">
   
