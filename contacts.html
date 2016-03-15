@@ -1,130 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style4.css">
-</head>
-<body>
-  
-<header class="page-header"> 
-<div class="container">
-	
-  <a href="#" class="logo">
-    <img  class="logo-img" src="img/logo.png" alt="Машинка"> 
-    <span class="logo-brand">
-         <b>Спецтех</b>24
-    </span> </a>
-  
-  <nav class="main-nav">
-	<ul>
-		<li><a href="#">О компании</a></li>
-<li><a href="index.html">Каталог</a></li>
-<li><a href="portfolio.html">Портфолио</a></li>
-<li><a href="contacts.html">Контакты</a></li>
-<li><a href="#" class="btn-order">Заказать звонок</a></li>
-</ul>
-</nav>
-
-</div>
-</header>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>
+            Document
+        </title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"/>
+    </head>
+    <body>
+     <header class="page-header">
+            <div class="container">
+                <a href="#" class="logo">
+                     <img class="logo-img" src="image/logo.png" alt="">
+                    <span class="logo-brand">
+                        <b>
+                            Спецтех
+                        </b>
+                        24
+                    </span>
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                О компании
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Портфолио
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Контакты
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="recall">
+                                Заказать звонок
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
 <main>
-<section class="consult"> 
-  <div class="container">
-   <h1 class="consult-title">Контакты</h1>
-    <p>Свяжитесь с нами и все будет хорошо</p>
-    <a href="#" class="consult-button">Мне нужна консультация</a>
-  </div>
-  </section>
-  
-  
-   <div class="feedback">
+   <section class="contacts-header">
     <div class="container">
-     
-      <div class="map"></div>
-      
-    <div class="contacts-feedback-form">
-      <div class="contacts-feedback-form-phone">
-        <img src="phone.png" alt="phone"/><p>+7(812)212 85 06</p>
+      <div class="contacts-header-text">
+        <h1 class="contacts-header-title">Контакты</h1>
+        <p class="contacts-header-text-info">Свяжитесь с нами и все будет хорошо</p>
+       </div>
+         <a href="#" class="contacts-header-btn">Мне нужна консультация</a>
+    </div>
+  </section>
+
+<div class="feedback">
+    <div class="container">
+      <div class="contacts-map">
+         <iframe class="maps" src=""></iframe>
       </div>
-      <div class="contacts-feedback-form-mail>
-        <img src="mail.png" alt="mail"/><a href="">rent@spezteh.ru</a>
+     <div class="contacts-form">
+    <div class="contacts-form-numbers-block">
+      <div class="contacts-form-numbers-img phone">
       </div>
-      <h2>Заказать консультацию по подбору<br/> подходящей техники</h2>
-    
-      <form action="#" class="contacts-feedback-form-fill">
-        <input type="text" placeholder="Имя"/>
-        <input type="text" placeholder="Телефон для связи"/>
-        <textarea name="#" cols="30" rows="4" placeholder="Описание задачи (можно примерное)"></textarea>
-        <input class="contacts-feedback-form-fill-button" type="button" value="Получить консультацию"/>
-      </form>
+      <p class="contacts-form-numbers">+7 (812) 212 85 06</p>
+    </div>
+    <div class="contacts-form-numbers-block">
+      <div class="contacts-form-numbers-img mail">
+      </div>
+      <p class="contacts-form-numbers">rent@spezteh.ru</p>
+    </div>
+    <p class="contacts-form-text">Заказать консультацию по подбору подходящей техники:</p>
+    <form action="#">
+      <input class="contacts-info" type="text" placeholder="Имя"/>
+       <input class="contacts-info" type="tel" placeholder="Телефон для связи"/>
+       <textarea class="contacts-info task" placeholder="Описание задачи (можно примерное)"></textarea>
+       <input type="submit" value="Получить консультацию" class="feedback-contacts-btn" />
+       </form>
+      </div>
     </div>
   </div>
-</div>
-</div>
 
-<div class="about-rewievs">
-<div class="container">
- <h2 class="subtitle">Отзывы</h2>
- <div class="about-reviews-item">
-  <img src="img/client1.jpg" alt="Оля Вольт"/>
-  <blockquote>
-Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
-работу быстро и еще у них отличное  чувство юмора! Благодарим и рекомендуем.<br/>
-   <cite class="name">Оля Молния</cite>
-  </blockquote>
- </div>
-
- <div class="about-reviews-item">
-  <img src="img/client1.jpg" alt="Оля Вольт"/>
-  <blockquote>
-Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
-работу быстро и еще у них отличное  чувство юмора! Благодарим и рекомендуем.<br/>
-   <cite class="name">Оля Молния</cite>
-  </blockquote>
- </div>
-
-<div class="about-reviews-item">
-  <img src="img/client1.jpg" alt="Оля Вольт"/>
-  <blockquote>
-Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
-работу быстро и еще у них отличное  чувство юмора! Благодарим и рекомендуем.<br/>
-   <cite class="name">Оля Молния</cite>
-  </blockquote>
- </div>
-
-<div class="about-reviews-item">
-  <img src="img/client1.jpg" alt="Оля Вольт"/>
-  <blockquote>
-Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
-работу быстро и еще у них отличное  чувство юмора! Благодарим и рекомендуем.<br/>
-   <cite class="name">Оля Молния</cite>
-  </blockquote>
- </div>
-</div>  
-</div>                     
+    <div class="contacts-review-all">
+        <div class="container">
+            <h2 class="subtitle">
+                Отзывы
+            </h2>
+            <div class="contacts-review">
+                <div class="contacts-review-img ">
+                    <img src="image/reviewer-1.png" alt="reviewer"/>
+                </div>
+                <blockquote class="contacts-review-blockquote">
+                    Спецтех24 – это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+                </blockquote>
+                <cite class="contacts-review-cite">
+                    Оля Молния
+                </cite>
+            </div>
+            <div class="contacts-review">
+                <div class="contacts-review-img ">
+                    <img src="image/reviewer-2.png" alt="reviewer"/>
+                </div>
+                <blockquote class="contacts-review-blockquote">
+                    Спецтех24 – это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+                </blockquote>
+                <cite class="contacts-review-cite">
+                    Оля Молния
+                </cite>
+            </div>
+            <div class="contacts-review">
+                <div class="contacts-review-img ">
+                    <img src="image/reviewer-3.png" alt="reviewer"/>
+                </div>
+                <blockquote class="contacts-review-blockquote">
+                    Спецтех24 – это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+                </blockquote>
+                <cite class="contacts-review-cite">
+                    Оля Молния
+                </cite>
+            </div>
+            <div class="contacts-review">
+                <div class="contacts-review-img">
+                    <img src="image/reviewer-4.png" alt="reviewer"/>
+                </div>
+                <blockquote class="contacts-review-blockquote">
+                    Спецтех24 – это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+                </blockquote>
+                <cite class="contacts-review-cite">
+                    Оля Молния
+                </cite>
+            </div>
+        </div>
+    </div>
 </main>
-
-<footer class="page-footer"> 
-<div class="container">
-  <a href="#" class="logo"> 
-  <img  class="logo-img" src="img/logo.png" alt="Машинка">
-  <span><b>Спецтех</b>24</span>
-  </a>
-  <nav class="main-nav">
-  
-<ul>
-                      
-<li><a href="#">О компании</a></li>
-<li><a href="#">Каталог</a></li>
-<li><a href="#">Портфолио</a></li>
-<li><a href="#">Контакты</a></li>
-<li><a href="#" class="btn-order">Заказать</a></li>
-</ul>
-  </nav>
-</div>
- 
+<footer class="page-footer">
+    <div class="container">
+        <a href="#" class="logo-footer">
+            <img  class="logo-img" src="image/logo-footer.png" height="36" width="47" alt="Машинка"/>
+            <span>
+                <b>
+                    Спецтех
+                </b>
+                24
+            </span>
+        </a>
+        <nav class="footer-nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        О компании
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Каталог
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Портфолио
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Контакты
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn-order">
+                        Заказать
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </footer>
 </body>
 </html>
